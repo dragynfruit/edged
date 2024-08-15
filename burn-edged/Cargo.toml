@@ -1,0 +1,7 @@
+[package]
+name = "burn-edged"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn-core = "0.13.2"

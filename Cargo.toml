@@ -1,0 +1,22 @@
+[package]
+name = "edged"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+unrestricted = []
+I_UNDERSTAND_WHAT_I_AM_DOING_DADDY_GOOGLE = []
+
+[dependencies]
+bitflags = "2.5.0"
+env_logger = "0.11.3"
+flatbuffers = { version = "24.3.25"}
+flexbuffers = "2.0.0"
+futures = "0.3.30"
+log = "0.4.21"
+nix = { version = "0.29.0", default-features = false, features = ["ioctl", "event"] }
+rusb = "0.9.4"
+
+[workspace]
+members = ["burn-edged"]

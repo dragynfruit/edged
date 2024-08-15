@@ -1,0 +1,6 @@
+[book]
+authors = ["frc4533-lincoln"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Reverse Engineering the Google Coral TPU"
